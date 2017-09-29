@@ -1,0 +1,10 @@
+C:\Users\cryns\Source\Repos\.NET\RayTracer\bin\Debug\Scenes.xml
+C:\Users\cryns\Source\Repos\.NET\RayTracer\bin\Debug\RayTracer.exe.config
+C:\Users\cryns\Source\Repos\.NET\RayTracer\bin\Debug\RayTracer.exe
+C:\Users\cryns\Source\Repos\.NET\RayTracer\bin\Debug\RayTracer.pdb
+C:\Users\cryns\Source\Repos\.NET\RayTracer\obj\Debug\RayTracer.csprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\RayTracer\obj\Debug\RayTracer.MainForm.resources
+C:\Users\cryns\Source\Repos\.NET\RayTracer\obj\Debug\RayTracer.Properties.Resources.resources
+C:\Users\cryns\Source\Repos\.NET\RayTracer\obj\Debug\RayTracer.csproj.GenerateResource.Cache
+C:\Users\cryns\Source\Repos\.NET\RayTracer\obj\Debug\RayTracer.exe
+C:\Users\cryns\Source\Repos\.NET\RayTracer\obj\Debug\RayTracer.pdb

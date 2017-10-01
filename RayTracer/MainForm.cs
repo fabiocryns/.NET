@@ -39,7 +39,7 @@ namespace RayTracer {
             CenterRenderedImage();
         }
         
-        private void RenderMenu_Click(object sender, EventArgs e) {
+        private async void RenderMenu_Click(object sender, EventArgs e) {
             // disable the render menu while rendering
             RenderMenu.Enabled = false;
             // find the render size (stored as an object in the selected menu's Tag property)
@@ -59,7 +59,7 @@ namespace RayTracer {
             var rayTracer = new RayTracerEngine(_bitmap.Width, _bitmap.Height);
             rayTracer.OnUpdateStatus += rayTracer_OnUpdateStatus;
             // start rendering the scene
-            RenderedImage.BackgroundImage = rayTracer.Render(_scenes[_selectedScene]);
+            var task = Task.Run(() => { RenderedImage.BackgroundImage = rayTracer.Render(_scenes[_selectedScene]); });
             // re-enable the render menu
             RenderMenu.Enabled = true;
         }

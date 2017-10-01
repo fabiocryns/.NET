@@ -118,15 +118,48 @@ namespace RayTracer.Internals {
 
         public SDBitmap Render(Scene scene) {
             var start = DateTime.Now;
+            int counter = 0;
 
             SDBitmap bitmap = new SDBitmap(this.screenWidth, this.screenHeight, PixelFormat.Format32bppArgb);
-            for (int y = 0; y < screenHeight; y++) {
-               for (int x = 0; x < screenWidth; x++) {
-                   Color color = TraceRay(new Ray() { Start = scene.Camera.Pos, Dir = GetPoint(x, y, scene.Camera) }, scene, 0);
-                   bitmap.SetPixel(x, y, (System.Drawing.Color) color);
-               }
+            var bitmapData = bitmap.LockBits(new SDRectangle
+            {
+                X = 0,
+                Y = 0,
+                Width = bitmap.Width,
+                Height = bitmap.Height
+            }, ImageLockMode.ReadWrite, bitmap.PixelFormat);
+            try
+            {
+                unsafe
+                {
+                    Parallel.For(0, screenHeight, y => {
+                        byte* row = (byte*)bitmapData.Scan0 + (y * bitmapData.Stride);
+                        Parallel.For(0, screenWidth, x => {
+                            System.Drawing.Color color = (System.Drawing.Color) TraceRay(new Ray()
+                            {
+                                Start = scene.Camera.Pos,
+                                Dir = GetPoint(x, y, scene.Camera)
+                            },
+                           scene, 0);
+                            row[x * 4] = color.B; // Blue
+                            row[x * 4 + 1] = color.G; // Green
+                            row[x * 4 + 2] = color.R; // Red
+                            row[x * 4 + 3] = 255; // Alpha
+                            int rayCount = Interlocked.Increment(ref counter);
+                            if (rayCount % screenWidth == 0)
+                            {
+                                if (OnUpdateStatus != null)
+                                    OnUpdateStatus(string.Format("{0} complete.", (rayCount /
+                                    (double)(screenWidth * screenHeight)).ToString("P1")));
+                            }
+                        });
+                    });
+                }
             }
-
+            finally
+            {
+                bitmap.UnlockBits(bitmapData);
+            }
             var stop = DateTime.Now.Subtract(start);
             if (OnUpdateStatus != null)
                 OnUpdateStatus(string.Format("Rendering the image took {0}ms.",

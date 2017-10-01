@@ -44,12 +44,12 @@ namespace RayTracer.Internals {
             return d > 1 ? 1 : d;
         }
 
-        // Explicit conversion from Color to System.Drawin.Color
+        // Explicit conversion from Color to System.Drawing.Color
         public static explicit operator System.Drawing.Color (Color color)
         {
             return System.Drawing.Color.FromArgb((int)(Legalize(color.R) * 255), (int)(Legalize(color.G) * 255), (int)(Legalize(color.B) * 255));
         }
-        // Implicit conversion from double to Digit
+        // Implicit conversion from System.Drawin.Color to Color
         public static implicit operator Color (System.Drawing.Color color)
         {
             return new Color(color.R, color.G, color.B);

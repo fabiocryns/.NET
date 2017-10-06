@@ -1,0 +1,13 @@
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqTests.dll
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqTests.pdb
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqModule.exe
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqModuleDatabase.dll
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqModule.pdb
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqModule.exe.config
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\LinqModuleDatabase.pdb
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\obj\Debug\LinqTests.csprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\obj\Debug\LinqTests.dll
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqTests\obj\Debug\LinqTests.pdb

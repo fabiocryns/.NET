@@ -9,7 +9,7 @@ namespace LinqModule.Model.Queries {
         public TakeQuery() : base("Take five orders", "Takes the first 5 orders from the database.", QueryTypes.Partitioning) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.Orders.Take(5);
         }
     }
 
@@ -17,7 +17,7 @@ namespace LinqModule.Model.Queries {
         public SkipQuery() : base("Skip three employees", "Lists the employees in the database, but skips the first 3.", QueryTypes.Partitioning) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.Employees.Skip(3);
         }
     }
     

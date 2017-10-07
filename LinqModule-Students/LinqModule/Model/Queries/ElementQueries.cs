@@ -9,7 +9,7 @@ namespace LinqModule.Model.Queries {
         public FirstQuery() : base("Oldest employee", "Returns the oldest employee.", QueryTypes.Element) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return (from e in ObjectDatabase.Employees orderby e.BirthDate ascending select e).First();
         }
     }
 
@@ -17,7 +17,7 @@ namespace LinqModule.Model.Queries {
         public SingleQuery() : base("Top manager", "Returns the emplyee who doesn't report to anyone.", QueryTypes.Element) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.Employees.Where(e => e.ReportsTo == null).First();
         }
     }
 
@@ -25,7 +25,7 @@ namespace LinqModule.Model.Queries {
         public SingleOrDefaultQuery() : base("Order 666", "Returns the order with ID 666 (if it exists).", QueryTypes.Element) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.Orders.Where(e => e.OrderID == 666).FirstOrDefault();
         }
     }
 }

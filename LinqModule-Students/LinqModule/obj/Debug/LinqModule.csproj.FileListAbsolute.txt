@@ -63,3 +63,4 @@ C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\obj\Debug\LinqMo
 C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\obj\Debug\LinqModule.csproj.GenerateResource.Cache
 C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\obj\Debug\LinqModule.exe
 C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\obj\Debug\LinqModule.pdb
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\obj\Debug\LinqModule.csprojResolveAssemblyReference.cache

@@ -9,7 +9,16 @@ namespace LinqModule.Model.Queries {
         public AnyQuery() : base("Senior hires", "Checks if an employee was over 50 years of age when hired.", QueryTypes.Quantifiers) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.Employees.Any(e => {
+                TimeSpan difference = (TimeSpan)(e.HireDate - e.BirthDate);
+                if(difference.TotalDays > 18250)
+                {
+                    return true;
+                } else
+                {
+                    return false;
+                }
+            } );
         }
     }
 
@@ -17,7 +26,7 @@ namespace LinqModule.Model.Queries {
         public AllQuery() : base("Supplier phone numbers", "Checks whether all suppliers have a phone number.", QueryTypes.Quantifiers) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.Suppliers.All(s => s.Phone != null);
         }
     }
 
@@ -25,7 +34,7 @@ namespace LinqModule.Model.Queries {
         public ContainsQuery() : base("Product ordered?", "Checks whether the product with ID 11 has been ordered.", QueryTypes.Quantifiers) { }
 
         public override object Execute() {
-            throw new NotSupportedException();
+            return ObjectDatabase.OrderDetails.Any(od => od.ProductID == 11);
         }
     }
 }

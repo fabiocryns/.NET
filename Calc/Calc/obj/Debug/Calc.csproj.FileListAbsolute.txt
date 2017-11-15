@@ -1,0 +1,8 @@
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\obj\Debug\Calc.Form1.resources
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.Cache
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\cryns\Source\Repos\.NET\Calc\Calc\obj\Debug\Calc.pdb

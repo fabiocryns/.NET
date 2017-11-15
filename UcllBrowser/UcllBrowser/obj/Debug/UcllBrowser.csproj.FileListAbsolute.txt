@@ -1,0 +1,9 @@
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\bin\Debug\UcllBrowser.exe.config
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\bin\Debug\UcllBrowser.exe
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\bin\Debug\UcllBrowser.pdb
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\obj\Debug\UcllBrowser.csprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\obj\Debug\UcllBrowser.MainForm.resources
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\obj\Debug\UcllBrowser.Properties.Resources.resources
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\obj\Debug\UcllBrowser.csproj.GenerateResource.Cache
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\obj\Debug\UcllBrowser.exe
+C:\Users\cryns\Source\Repos\.NET\UcllBrowser\UcllBrowser\obj\Debug\UcllBrowser.pdb

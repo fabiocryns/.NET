@@ -1,0 +1,9 @@
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\bin\Debug\NotepadTest.exe.config
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\bin\Debug\NotepadTest.exe
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\bin\Debug\NotepadTest.pdb
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\obj\Debug\NotepadTest.csprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\obj\Debug\NotepadTest.MainForm.resources
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\obj\Debug\NotepadTest.Properties.Resources.resources
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\obj\Debug\NotepadTest.csproj.GenerateResource.Cache
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\obj\Debug\NotepadTest.exe
+C:\Users\cryns\Source\Repos\.NET\NotepadTest\NotepadTest\obj\Debug\NotepadTest.pdb

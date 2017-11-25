@@ -144,7 +144,7 @@ namespace Notepad
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            -
+            this.Close();
         }
 
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)

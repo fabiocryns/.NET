@@ -1,0 +1,2 @@
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.ViewModels\obj\Debug\VBChess.ViewModels.Resources.resources
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.ViewModels\obj\Debug\VBChess.ViewModels.vbproj.GenerateResource.Cache

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBChess", "VBChess\VBChess.vbproj", "{0A2BC6CD-8CED-455A-887E-D931219F201C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBChess.Models", "VBChess.Models\VBChess.Models.vbproj", "{7361C97B-A500-4DF4-A871-DD5D1BDF1506}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBChess.ViewModels", "VBChess.ViewModels\VBChess.ViewModels.vbproj", "{BC3BB655-1A70-4C20-84A4-D75B12673C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VBChess.Shared", "VBChess.Shared\VBChess.Shared.csproj", "{5A268CFF-EBF9-4170-94D5-25ED2B3C7618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2BC6CD-8CED-455A-887E-D931219F201C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2BC6CD-8CED-455A-887E-D931219F201C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2BC6CD-8CED-455A-887E-D931219F201C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2BC6CD-8CED-455A-887E-D931219F201C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7361C97B-A500-4DF4-A871-DD5D1BDF1506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7361C97B-A500-4DF4-A871-DD5D1BDF1506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7361C97B-A500-4DF4-A871-DD5D1BDF1506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7361C97B-A500-4DF4-A871-DD5D1BDF1506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3BB655-1A70-4C20-84A4-D75B12673C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3BB655-1A70-4C20-84A4-D75B12673C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3BB655-1A70-4C20-84A4-D75B12673C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3BB655-1A70-4C20-84A4-D75B12673C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A268CFF-EBF9-4170-94D5-25ED2B3C7618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A268CFF-EBF9-4170-94D5-25ED2B3C7618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A268CFF-EBF9-4170-94D5-25ED2B3C7618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A268CFF-EBF9-4170-94D5-25ED2B3C7618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

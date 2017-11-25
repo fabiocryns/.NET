@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\OneDrive\KHLeuven\dotNET\Oefeningen\2015-2016\Module 8 - LINQ\LinqModule\LinqModule\obj\Release\
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\obj\Release\
 LinqModule
 none
 false
 TRACE
-D:\OneDrive\KHLeuven\dotNET\Oefeningen\2015-2016\Module 8 - LINQ\LinqModule\LinqModule\App.xaml
-1-1711142684
+C:\Users\cryns\Source\Repos\.NET\LinqModule-Students\LinqModule\App.xaml
+61467608177
 
-141510282497
-661489743307
-View\MainWindow.xaml;
-logo.jpg
-False
+37-4176118
+69-688306119
+View\EnumerableResultsView.xaml;View\ExceptionResultView.xaml;View\MainWindow.xaml;View\NoResultsView.xaml;View\SingleResultView.xaml;View\SingleValueResultView.xaml;
+
+True
 

@@ -1,0 +1,3 @@
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.vbprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.Resources.resources
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.vbproj.GenerateResource.Cache

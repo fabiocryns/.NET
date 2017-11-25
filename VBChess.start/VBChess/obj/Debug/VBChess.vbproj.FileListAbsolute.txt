@@ -1,0 +1,6 @@
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess\obj\Debug\VBChess.vbprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess\obj\Debug\Views\MainWindow.g.vb
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess\obj\Debug\Application.g.vb
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess\obj\Debug\VBChess_MarkupCompile.cache
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess\obj\Debug\VBChess_MarkupCompile.lref

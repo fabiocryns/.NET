@@ -1,3 +1,16 @@
 C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.vbprojResolveAssemblyReference.cache
 C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.Resources.resources
 C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.vbproj.GenerateResource.Cache
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\VBChess.Models.dll
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\VBChess.Models.pdb
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\VBChess.Models.xml
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\VBChess.Shared.dll
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\VBChess.Shared.pdb
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.dll
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.xml
+C:\Users\cryns\Source\Repos\.NET\VBChess.start\VBChess.Models\obj\Debug\VBChess.Models.pdb

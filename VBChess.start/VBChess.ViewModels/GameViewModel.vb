@@ -10,7 +10,7 @@ Public Class GameViewModel
         Me.IsFinished = Game.IsFinished
         Me.Players = Game.Players
         Me.CurrentPlayer = Game.CurrentPlayer
-        Me.Board = New Cell(Of ChessBoardViewModel)(Nothing) 'TODO
+        Me.Board = New Cell(Of ChessBoardViewModel)(New ChessBoardViewModel(Me)) 'TODO
     End Sub
 
     Public Property IsFinished As ICell(Of Boolean)
@@ -48,9 +48,17 @@ Public Class GameViewModel
             _X = x
             _Y = y
             GameViewModel = gameVm
-            Me.Content = Nothing 'TODO
-            _Click = Nothing 'TODO
-            _Selected = Nothing 'TODO
+            Me.Content = DerivedCell.Create(Of ChessPiece, SquareContent)(gameVm.Game.Board(x, y).Content, Function(piece As ChessPiece)
+                                                                                                               If (piece Is Nothing) Then
+                                                                                                                   Return Nothing
+                                                                                                               Else
+                                                                                                                   Return New SquareContent(piece.PawnType, piece.Owner)
+                                                                                                               End If
+                                                                                                           End Function)
+            _Click = New ClickCommand(Me)
+            _Selected = DerivedCell.Create(Of SquareViewModel, Boolean)(gameVm.SelectedSquare, Function(ss As SquareViewModel)
+                                                                                                   Return ss Is Me
+                                                                                               End Function)
         End Sub
         Public ReadOnly Property X As Integer
         Public ReadOnly Property Y As Integer
@@ -58,6 +66,42 @@ Public Class GameViewModel
         Public ReadOnly Property Content As ICell(Of SquareContent)
         Public ReadOnly Property Click As ICommand
         Private Property GameViewModel As GameViewModel
+
+        Public Class ClickCommand
+            Implements ICommand
+
+            Private Property SquareVm As SquareViewModel
+            Private Property CanExecuteValue As Boolean
+            Public Sub New(squareVm As SquareViewModel)
+                _SquareVm = squareVm
+                _CanExecuteValue = CanExecute()
+            End Sub
+            Private Function CanExecute() As Boolean
+                If SquareVm.GameViewModel.IsFinished.Value Then Return False
+                If SquareVm.GameViewModel.SelectedSquare.Value Is Nothing Then
+                    Return Not SquareVm.Content.Value Is Nothing AndAlso SquareVm.Content.Value.Owner Is SquareVm.GameViewModel.CurrentPlayer.Value
+                Else
+                    Dim ss As SquareViewModel = SquareVm.GameViewModel.SelectedSquare.Value
+                    Return SquareVm.GameViewModel.SelectedSquare.Value.Equals(SquareVm) OrElse SquareVm.GameViewModel.Game.CanMovePiece(New Point(ss.X, ss.Y), New Point(SquareVm.X, SquareVm.Y))
+                End If
+            End Function
+            Public Event CanExecuteChanged As EventHandler Implements ICommand.CanExecuteChanged
+
+            Public Sub Execute(parameter As Object) Implements ICommand.Execute
+                Dim ss As SquareViewModel = SquareVm.GameViewModel.SelectedSquare.Value
+                If ss Is Nothing Then
+                    SquareVm.GameViewModel.SelectedSquare.Value = SquareVm
+                Else
+                    SquareVm.GameViewModel.SelectedSquare.Value = Nothing
+                    If Not ss.Equals(SquareVm) Then
+                        SquareVm.GameViewModel.Game.MovePiece(New Point(ss.X, ss.Y), New Point(SquareVm.X, SquareVm.Y))
+                    End If
+                End If
+            End Sub
+            Public Function CanExecute(parameter As Object) As Boolean Implements ICommand.CanExecute
+                Return CanExecuteValue
+            End Function
+        End Class
 
         Public Class SquareContent
             Public Sub New(pawnType As PawnTypes, owner As Player)

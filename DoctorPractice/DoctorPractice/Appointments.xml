@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Appointments>
+  <Appointment Date="01/10/2015" Patient="Lucas" Doctor="Dr. Philippaerts" Reason="Painful abdomen" />
+  <Appointment Date="01/10/2015" Patient="Lotte" Doctor="Dr. Philippaerts" Reason="Broken arm" />
+  <Appointment Date="02/10/2015" Patient="Tim" Doctor="Dr. Vogels" Reason="Weird rash" />
+  <Appointment Date="30/09/2015" Patient="Roos" Doctor="Dr. Philippaerts" Reason="Flu :-(" />
+  <Appointment Date="29/09/2015" Patient="Lucas" Doctor="Dr. Vogels" Reason="Heavy headaches" />
+  <Appointment Date="30/09/2015" Patient="Tim" Doctor="Dr. Vogels" Reason="Swollen foot" />
+  <Appointment Date="28/09/2015" Patient="Tim" Doctor="Dr. Philippaerts" Reason="Allergic reaction" />
+</Appointments>

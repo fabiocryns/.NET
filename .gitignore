@@ -3,3 +3,9 @@
 ################################################################################
 
 *.suo
+/CalculatorWebForm/.vs/CalculatorWebForm/v15/Server/sqlite3/db.lock
+/CalculatorWebForm/.vs/CalculatorWebForm/v15/Server/sqlite3/storage.ide
+/DoctorPractice/.vs/DoctorPractice/v15/Server/sqlite3/storage.ide-wal
+/DoctorPractice/.vs/DoctorPractice/v15/Server/sqlite3/storage.ide-shm
+/DoctorPractice/.vs/DoctorPractice/v15/Server/sqlite3/storage.ide
+/DoctorPractice/.vs/DoctorPractice/v15/Server/sqlite3/db.lock

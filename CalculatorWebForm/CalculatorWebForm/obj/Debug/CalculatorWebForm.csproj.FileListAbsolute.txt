@@ -1,0 +1,9 @@
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\bin\CalculatorWebForm.dll.config
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\bin\CalculatorWebForm.dll
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\bin\CalculatorWebForm.pdb
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\obj\Debug\CalculatorWebForm.csprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\obj\Debug\CalculatorWebForm.csproj.CoreCompileInputs.cache
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\obj\Debug\CalculatorWebForm.dll
+C:\Users\cryns\Source\Repos\.NET\CalculatorWebForm\CalculatorWebForm\obj\Debug\CalculatorWebForm.pdb

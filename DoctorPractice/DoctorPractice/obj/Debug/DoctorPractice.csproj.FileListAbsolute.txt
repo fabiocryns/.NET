@@ -1,0 +1,9 @@
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\bin\DoctorPractice.dll.config
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\bin\DoctorPractice.dll
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\bin\DoctorPractice.pdb
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\obj\Debug\DoctorPractice.csprojResolveAssemblyReference.cache
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\obj\Debug\DoctorPractice.csproj.CoreCompileInputs.cache
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\obj\Debug\DoctorPractice.dll
+C:\Users\cryns\Source\Repos\.NET\DoctorPractice\DoctorPractice\obj\Debug\DoctorPractice.pdb

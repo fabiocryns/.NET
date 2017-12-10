@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DoctorPractice.Site1" %>
 
+<%@ Register Src="~/WebUserControl1.ascx" TagPrefix="uc1" TagName="WebUserControl1" %>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -13,6 +16,7 @@
             <td valign="top" colspan="2" style="padding: 20px; width:300px">
                 <font size="6" face="Arial" color="#1F72BD">Vogels</font> <font size="6" face="Arial" color="red">Philippaerts</font><br />
 		<!-- RESERVED FOR A TAGLINE -->
+                <uc1:WebUserControl1 runat="server" ID="WebUserControl1" />
             </td>
         </tr>
         <tr style="height: 100%">

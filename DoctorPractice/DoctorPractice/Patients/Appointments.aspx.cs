@@ -11,7 +11,7 @@ namespace DoctorPractice.Patients
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            XmlDataSource1.XPath = "/Appointments/Appointment[@Patient=\""+User.Identity.Name+"\"]";
         }
     }
 }
